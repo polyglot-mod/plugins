@@ -1,4 +1,4 @@
-const importHost = 'http://127.0.0.1:1337/plugins';
+const importHost = 'https://polyglot-mod.github.io/plugins';
 const host = location.host;
 
 const plugins = {
