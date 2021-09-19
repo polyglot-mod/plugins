@@ -53,7 +53,7 @@ CSS.add(`body {
 }
 
 /* Fix html background setting */
-.sc-gTgzoy.VJVsA {
+._11Ivv > .sc-gTgzoy.VJVsA {
   background-color: var(--background);
 }
 
@@ -85,5 +85,5 @@ CSS.add(`body {
   --brand-color-hover: #896BB5;
 }`); */
 
-// CSS.add(`@import "${prompt('Theme Link')}";`);
-CSS.add(await (await fetch(prompt('Theme Link:'))).text());
+CSS.add(`@import "${prompt('Theme Link')}";`);
+// CSS.add(await (await fetch(prompt('Theme Link:'))).text());
