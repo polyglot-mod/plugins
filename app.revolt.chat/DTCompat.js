@@ -27,7 +27,7 @@ CSS.add(`body {
 
   --accent: var(--brand-color);
 
-  --primary-header: var(--background-primary);
+  --primary-header: var(--background-secondary-alt);
   --secondary-header: var(--background-secondary-alt);
 
   --tertiary-foreground: var(--text-muted);
