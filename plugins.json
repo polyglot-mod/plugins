@@ -1,0 +1,10 @@
+{
+  "app.revolt.chat": [
+    "DTCompat",
+    "Role Colored Messages"
+  ],
+
+  "app.element.io": [
+    "DTCompat"
+  ]
+}
