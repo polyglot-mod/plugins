@@ -1,3 +1,5 @@
+// From https://github.com/CircuitRCAY/Duvbox
+
 const CSS = await import('https://polyglot-mod.github.io/standard/src/css.js');
 
 CSS.add(`.theme-dark {
