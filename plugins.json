@@ -9,6 +9,7 @@
   ],
 
   "themes": [
-    "Dracula"
+    "Dracula",
+    "Gruvbox"
   ]
 }
