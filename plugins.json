@@ -6,5 +6,9 @@
 
   "app.element.io": [
     "Discord Themes"
+  ],
+
+  "themes": [
+    "Dracula"
   ]
 }
