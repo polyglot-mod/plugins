@@ -1,3 +1,5 @@
+const CSS = await import('https://polyglot-mod.github.io/standard/src/css.js');
+
 CSS.add(`:root {
   --background-primary: #181920;
   --background-secondary: #1C1D25;
