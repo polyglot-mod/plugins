@@ -11,7 +11,7 @@ const loadPlugin = async (host, name) => {
   console.log('loadPlugin', host, name);
   const js = await (await fetch(`${importHost}/${host}/${name}.js?_${Date.now()}`)).text();
   eval('(async () => {\n' + js + '\n})();');
-}
+};
 
 for (const plugin of plugins.generic) {
   loadPlugin('generic', plugin);

@@ -25,7 +25,7 @@ CSS.add(`body {
   --tertiary-background: var(--background-tertiary);
   --message-box: var(--channeltextarea-background);
 
-  --accent: var(--brand-color);
+  --accent: var(--brand-experiment);
 
   --primary-header: var(--background-secondary-alt);
   --secondary-header: var(--background-secondary-alt);
@@ -62,7 +62,7 @@ CSS.add(`body {
   background: none !important;
 }`);
 
-/* CSS.add(`:root {
+CSS.add(`:root {
   --background-primary: #181920;
   --background-secondary: #1C1D25;
   --background-secondary-alt: #16171D;
@@ -81,9 +81,8 @@ CSS.add(`body {
   --scrollbar-auto-track: #16171D;
   --scrollbar-auto-scrollbar-color-track: #16171D;
 
-  --brand-color: #9B78CC;
-  --brand-color-hover: #896BB5;
-}`); */
+  --brand-experiment: #9B78CC;
+}`);
 
 CSS.add(`@import "${prompt('Theme Link')}";`);
 // CSS.add(await (await fetch(prompt('Theme Link:'))).text());
