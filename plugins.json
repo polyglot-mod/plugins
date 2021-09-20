@@ -1,15 +1,16 @@
 {
+  "app.element.io": [
+    "Discord Themes"
+  ],
   "app.revolt.chat": [
     "Discord Themes",
     "Role Colored Messages"
   ],
-
-  "app.element.io": [
-    "Discord Themes"
-  ],
-
   "themes": [
+    "Darkest",
     "Dracula",
-    "Gruvbox"
+    "Gruvbox",
+    "Nord",
+    "Solarized Dark"
   ]
 }
