@@ -3,7 +3,8 @@ const host = location.host;
 
 const plugins = {
   'generic': [], // [ 'DTCompat', 'alert' ],
-  'app.revolt.chat': [ 'DTCompat' ]
+  'app.revolt.chat': [ 'DTCompat' ],
+  'app.element.io': [ 'DTCompat' ]
 };
 
 const loadPlugin = async (host, name) => {
