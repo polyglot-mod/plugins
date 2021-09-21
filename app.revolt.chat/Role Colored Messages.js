@@ -52,5 +52,10 @@ export const load = () => {
 };
 
 export const unload = () => {
-  clearInterval(interval);
+  clearInterval(interval); // Stop doing it
+
+  // Reset modified elements
+  for (const el of document.querySelectorAll('._markdown_8b8eo_2')) {
+    el.style.color = '';
+  }
 };
