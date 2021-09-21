@@ -29,7 +29,7 @@ export const load = async () => {
       ['--background-secondary-alt', '#191b1f', 'var(--background-secondary-alt, var(--background-accent, #191b1f))'],
       ['--background-floating', '#4f515d'],
       ['--background-floating', '#4e505c'],
-      ['--channeltextarea-background, var(--background-tertiary)', '#4e4f59', 'var(--channeltextarea-background, var(--background-tertiary, #4e4f59))'],
+      ['--channeltextarea-background', '#4e4f59', 'var(--channeltextarea-background, var(--background-tertiary, #4e4f59))'],
       ['--channeltextarea-background', 'rgba(163, 163, 172, 0.2)', 'var(--channeltextarea-background, var(--background-tertiary, rgba(163, 163, 172, 0.2)))'],
       ['--text-normal', 'var(--body-text-color)'],
       ['--interactive-hover', '#fff'],
