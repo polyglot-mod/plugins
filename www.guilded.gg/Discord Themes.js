@@ -52,14 +52,7 @@ export const load = async () => {
     }
   }
   
-  CSS.add(`
-  ::-webkit-scrollbar {
-    background-color: var(--scrollbar-thin-track, transparent);
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: var(--scrollbar-thin-thumb, hsla(0,0%,100%,.2));
-  }`);
+  CSS.add(``);
   
   
   // CSS.add(`@import "${prompt('Theme Link')}";`);
