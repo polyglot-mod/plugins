@@ -16,9 +16,8 @@ export const load = async () => {
   for (const [ toMap, remap ] of Object.entries(classRemap)) {
     document.querySelectorAll(`${toMap}`).forEach((x) => x.className += ' ' + remap);
   }
-  
-  const theme = window.document.styleSheets[1].href.split('/').pop().split('.')[0];
-  document.body.parentElement.classList.add(theme);
+
+  document.body.parentElement.classList.add('theme-dark');
   
   for (const sheet of window.document.styleSheets) {
     let themeVars = [
