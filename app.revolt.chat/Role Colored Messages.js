@@ -45,4 +45,12 @@ const perform = () => {
   }
 };
 
-setInterval(perform, 100);
+let interval;
+
+export const load = () => {
+  interval = setInterval(perform, 100);
+};
+
+export const unload = () => {
+  clearInterval(interval);
+};
