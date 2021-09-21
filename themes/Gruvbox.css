@@ -1,8 +1,6 @@
-// From https://github.com/CircuitRCAY/Duvbox
+/* From https://github.com/CircuitRCAY/Duvbox */
 
-const CSS = await import('https://polyglot-mod.github.io/standard/src/css.js');
-
-CSS.add(`.theme-dark {
+.theme-dark {
   --background-primary: #282828;
   --background-secondary: #3c3836;
   --background-tertiary: #504945;
@@ -37,4 +35,4 @@ CSS.add(`.theme-dark {
   --interactive-muted: #928374;
   --interactive-hover: #504945;
   --interactive-active: #7c6f64;
-}`);
+}
