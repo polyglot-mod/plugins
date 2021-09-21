@@ -20,8 +20,6 @@ export const load = async () => {
   const theme = window.document.styleSheets[1].href.split('/').pop().split('.')[0];
   document.body.parentElement.classList.add(theme);
 
-  let ctx = document.createElement('canvas').getContext('2d');
-  
   let sheet = window.document.styleSheets[1];
   
   let themeVars = [
