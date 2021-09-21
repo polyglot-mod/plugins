@@ -1,7 +1,7 @@
 let CSS;
 
 export const load = async () => {
-  CSS = await import('https://polyglot-mod.github.io/standard/src/css.js');
+  CSS = await import(`https://polyglot-mod.github.io/standard/src/css.js?_${Date.now()}`);
 
   const classRemap = {
     '.sc-laRQdt.eAQDAO': 'sidebar-2K8pFh',
