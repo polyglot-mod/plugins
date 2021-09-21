@@ -7,10 +7,13 @@
     "Role Colored Messages"
   ],
   "themes": [
-    "Darkest",
-    "Dracula",
-    "Gruvbox",
-    "Nord",
-    "Solarized Dark"
+    "Darkest.css",
+    "Dracula.css",
+    "Gruvbox.css",
+    "Nord.css",
+    "Solarized Dark.css"
+  ],
+  "www.guilded.gg": [
+    "Discord Themes"
   ]
 }

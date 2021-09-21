@@ -9,7 +9,7 @@ const json = {};
 
 const blocklist = ['LICENSE', 'plugins.json', 'README.md', 'generateJson.mjs', '.git'];
 for (const host of readdirSync(__dirname).filter((x) => !blocklist.includes(x))) {
-  json[host] = readdirSync(join(__dirname, host)).map((x) => x.replace('.js', ''));
+  json[host] = readdirSync(join(__dirname, host)).map((x) => x.split('.').slice(0, -1).join('.'));
 }
 
 console.log(json);
