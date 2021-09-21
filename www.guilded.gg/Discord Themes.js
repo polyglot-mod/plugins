@@ -23,6 +23,8 @@ export const load = async () => {
     let themeVars = [
       ['--background-primary', '#373943'],
       ['--background-secondary', '#292b32'],
+      ['--background-secondary', '#32343d'],
+      ['--background-secondary-alt', 'rgba(60,62,72,0.7)'],
       ['--background-tertiary', '#1e2025'],
       ['--background-secondary-alt', '#191b1f'],
       ['--background-secondary-alt', '#1e2025'],
