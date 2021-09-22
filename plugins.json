@@ -4,7 +4,8 @@
   ],
   "app.revolt.chat": [
     "Discord Themes.js",
-    "Role Colored Messages.js"
+    "Role Colored Messages.js",
+    "Square Avatars.css"
   ],
   "app.slack.com": [
     "Discord Themes.js"
