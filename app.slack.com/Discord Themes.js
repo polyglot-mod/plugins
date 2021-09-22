@@ -53,6 +53,11 @@ export const load = async () => {
   CSS.add(`body {
     --p-channel_sidebar__column-bg: var(--background-secondary);
     --p-channel_sidebar__top-nav-text--opacity-20: var(--background-floating);
+  }
+  
+  .c-wysiwyg_container__button.c-wysiwyg_container__button--send, .c-wysiwyg_container__button.c-wysiwyg_container__button--send_options {
+    color: var(--background-secondary);
+    background-color: var(--header-primary);
   }`);
 };
 
