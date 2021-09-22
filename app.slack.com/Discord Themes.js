@@ -24,7 +24,9 @@ export const load = async () => {
       ['--background-primary', '#373943'],
       ['--background-tertiary', '#350d36'],
       ['--header-primary', '#1D1C1D'],
-      ['--background-secondary', '#3F0E40']
+      ['--background-secondary', '#3F0E40'],
+      ['--background-primary', 'rgba(var(--sk_primary_background, 255, 255, 255), 1)'],
+      ['--text-normal', 'rgba(var(--sk_primary_foreground, 29, 28, 29), 1)']
     ].map((v) => {
       if (v[1][0] === '#') {
         v[1] = `rgb(${parseInt(v[1].substring(1, 3), 16)}, ${parseInt(v[1].substring(3, 5), 16)}, ${parseInt(v[1].substring(5, 7), 16)})`;
@@ -43,8 +45,6 @@ export const load = async () => {
   }
   
   CSS.add(`body {
-    --sk_primary_foreground: var(--text-normal);
-    --sk_primary_background: var(--background-primary);
     --p-channel_sidebar__column-bg: var(--background-secondary);
     --p-channel_sidebar__top-nav-text--opacity-20: var(--background-floating);
   }`);
