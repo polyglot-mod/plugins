@@ -23,7 +23,8 @@ export const load = async () => {
     let themeVars = [
       ['--background-primary', '#373943'],
       ['--background-tertiary', '#350d36'],
-      ['--header-primary', '#1D1C1D']
+      ['--header-primary', '#1D1C1D'],
+      ['--background-secondary', '#3F0E40']
     ].map((v) => {
       if (v[1][0] === '#') {
         v[1] = `rgb(${parseInt(v[1].substring(1, 3), 16)}, ${parseInt(v[1].substring(3, 5), 16)}, ${parseInt(v[1].substring(5, 7), 16)})`;
