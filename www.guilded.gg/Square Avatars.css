@@ -1,0 +1,3 @@
+.PlayerCardProfilePicture-avatar, .ChatV2MessageHeader-avatar-wrapper, .ChatV2MessageHeader-avatar, .LoggedInUserAvatar-picture {
+  border-radius: 0 !important;
+}
