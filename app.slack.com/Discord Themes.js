@@ -22,11 +22,7 @@ export const load = async () => {
   for (const sheet of window.document.styleSheets) {
     let themeVars = [
       ['--background-primary', '#373943'],
-      ['--background-secondary', 'var(--p-channel_sidebar__column-bg)'],
       ['--background-tertiary', '#350d36'],
-      ['--background-floating', 'var(--p-channel_sidebar__top-nav-text--opacity-20)'],
-      ['--background-primary', 'rgba(var(--sk_primary_background, 255, 255, 255), 1)'],
-      ['--text-normal', 'rgba(var(--sk_primary_foreground, 29, 28, 29), 1)'],
       ['--header-primary', '#1D1C1D']
     ].map((v) => {
       if (v[1][0] === '#') {
@@ -45,7 +41,12 @@ export const load = async () => {
     }
   }
   
-  CSS.add(``);
+  CSS.add(`body {
+    --sk-primary_foreground: var(--text-normal);
+    --sk-primary_background: var(--background-primary);
+    --p-channel_sidebar__column-bg: var(--background-secondary);
+    --p-channel_sidebar__top-nav-text--opacity-20: var(--background-floating);
+  }`);
 };
 
 export const unload = () => {
