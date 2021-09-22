@@ -23,7 +23,7 @@ export const load = async () => {
     let themeVars = [
       ['--background-primary', '#373943'],
       ['--background-secondary', 'var(--p-channel_sidebar__column-bg)'],
-      ['--background-secondary-alt', '#350d36'],
+      ['--background-tertiary', '#350d36'],
       ['--background-floating', 'var(--p-channel_sidebar__top-nav-text--opacity-20)'],
       ['--background-primary', 'rgba(var(--sk_primary_background, 255, 255, 255), 1)'],
       ['--text-normal', 'rgba(var(--sk_primary_foreground, 29, 28, 29), 1)'],
