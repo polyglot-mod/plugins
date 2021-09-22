@@ -1,23 +1,23 @@
 {
   "app.element.io": [
-    "Discord Themes"
+    "Discord Themes.js"
   ],
   "app.revolt.chat": [
-    "Discord Themes",
-    "Role Colored Messages"
+    "Discord Themes.js",
+    "Role Colored Messages.js"
   ],
   "app.slack.com": [
-    "Discord Themes"
+    "Discord Themes.js"
   ],
   "themes": [
-    "Darkest",
-    "Dracula",
-    "Gruvbox",
-    "Nord",
-    "Solarized Dark"
+    "Darkest.css",
+    "Dracula.css",
+    "Gruvbox.css",
+    "Nord.css",
+    "Solarized Dark.css"
   ],
   "www.guilded.gg": [
-    "Discord Themes",
-    "Role Colored Messages"
+    "Discord Themes.js",
+    "Role Colored Messages.js"
   ]
 }
