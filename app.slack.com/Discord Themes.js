@@ -33,7 +33,8 @@ export const load = async () => {
       ['--header-secondary', 'rgba(var(--sk_foreground_max,29,28,29),0.7)'],
       ['--background-accent', '#1164A3'],
       ['--text-link', 'rgba(var(--sk_highlight,18,100,163),1)'],
-      ['--background-floating', 'rgba(var(--sk_foreground_min_solid,248,248,248),1)']
+      ['--background-floating', 'rgba(var(--sk_foreground_min_solid,248,248,248),1)'],
+      ['--null, transparent', 'rgba(var(--sk_foreground_min,29,28,29),.04)']
     ].map((v) => {
       if (v[1][0] === '#') {
         v[1] = `rgb(${parseInt(v[1].substring(1, 3), 16)}, ${parseInt(v[1].substring(3, 5), 16)}, ${parseInt(v[1].substring(5, 7), 16)})`;
@@ -54,6 +55,7 @@ export const load = async () => {
   CSS.add(`body {
     --p-channel_sidebar__column-bg: var(--background-secondary);
     --p-channel_sidebar__top-nav-text--opacity-20: var(--background-floating);
+    --p-channel_sidebar__top-nav-text: var(--interactive-active);
   }
   
   .c-wysiwyg_container__button.c-wysiwyg_container__button--send, .c-wysiwyg_container__button.c-wysiwyg_container__button--send_options {
