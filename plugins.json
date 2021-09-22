@@ -1,6 +1,7 @@
 {
   "app.element.io": [
-    "Discord Themes.js"
+    "Discord Themes.js",
+    "Square Avatars.css"
   ],
   "app.revolt.chat": [
     "Discord Themes.js",
@@ -19,6 +20,7 @@
   ],
   "www.guilded.gg": [
     "Discord Themes.js",
-    "Role Colored Messages.js"
+    "Role Colored Messages.js",
+    "Square Avatars.css"
   ]
 }
