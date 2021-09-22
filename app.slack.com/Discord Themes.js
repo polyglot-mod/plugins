@@ -29,7 +29,9 @@ export const load = async () => {
       ['--text-normal', 'rgba(var(--sk_primary_foreground,29,28,29),1)'],
       ['--header-primary', '#FFFFFF'],
       ['--text-muted', 'rgb(207, 195, 207)'],
-      ['--background-accent', '#1164A3']
+      ['--header-secondary', 'rgba(var(--sk_foreground_max,29,28,29),.7)'],
+      ['--background-accent', '#1164A3'],
+      ['--text-link', 'rgba(var(--sk_highlight,18,100,163),1)']
     ].map((v) => {
       if (v[1][0] === '#') {
         v[1] = `rgb(${parseInt(v[1].substring(1, 3), 16)}, ${parseInt(v[1].substring(3, 5), 16)}, ${parseInt(v[1].substring(5, 7), 16)})`;
