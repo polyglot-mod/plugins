@@ -25,7 +25,7 @@ export const load = async () => {
       ['--background-secondary', 'var(--p-channel_sidebar__column-bg)'],
       ['--background-secondary-alt', '#350d36'],
       ['--background-floating', 'var(--p-channel_sidebar__top-nav-text--opacity-20)'],
-      ['--background-primary', 'rgba(var(--sk_primary_background, 255, 255, 255) ,1)']
+      ['--background-primary', 'rgba(var(--sk_primary_background, 255, 255, 255) ,1)'],
       ['--text-normal', 'rgba(var(--sk_primary_foreground, 29, 28, 29), 1)'],
       ['--header-primary', '#1D1C1D']
     ].map((v) => {
