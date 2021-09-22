@@ -27,7 +27,9 @@ export const load = async () => {
       ['--background-secondary', '#3F0E40'],
       ['--background-primary', 'rgba(var(--sk_primary_background,255,255,255),1)'],
       ['--text-normal', 'rgba(var(--sk_primary_foreground,29,28,29),1)'],
-      ['--header-primary', '#FFFFFF']
+      ['--header-primary', '#FFFFFF'],
+      ['--text-muted', 'rgb(207, 195, 207)'],
+      ['--background-accent', '#1164A3']
     ].map((v) => {
       if (v[1][0] === '#') {
         v[1] = `rgb(${parseInt(v[1].substring(1, 3), 16)}, ${parseInt(v[1].substring(3, 5), 16)}, ${parseInt(v[1].substring(5, 7), 16)})`;
