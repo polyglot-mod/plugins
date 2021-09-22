@@ -42,8 +42,8 @@ export const load = async () => {
   }
   
   CSS.add(`body {
-    --sk-primary_foreground: var(--text-normal);
-    --sk-primary_background: var(--background-primary);
+    --sk_primary_foreground: var(--text-normal);
+    --sk_primary_background: var(--background-primary);
     --p-channel_sidebar__column-bg: var(--background-secondary);
     --p-channel_sidebar__top-nav-text--opacity-20: var(--background-floating);
   }`);
