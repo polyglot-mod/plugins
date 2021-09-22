@@ -56,6 +56,7 @@ export const load = async () => {
     --p-channel_sidebar__column-bg: var(--background-secondary);
     --p-channel_sidebar__top-nav-text--opacity-20: var(--background-floating);
     --p-channel_sidebar__top-nav-text: var(--interactive-active);
+    --p-channel_sidebar__computed-text-color: var(--text-muted);
   }
   
   .c-wysiwyg_container__button.c-wysiwyg_container__button--send, .c-wysiwyg_container__button.c-wysiwyg_container__button--send_options {
