@@ -26,6 +26,7 @@ export const load = async () => {
       ['--background-primary', '#1f1f1f'],
       ['--background-floating', '#242424'],
       ['--background-accent', '#292929'],
+      ['--background-accent', '#2e2e2e'],
       // ['--text-normal', '#fff'],
       ['--interactive-hover', '#fff'],
       ['--interactive-normal', '#adadad'],
