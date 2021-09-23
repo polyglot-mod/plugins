@@ -29,7 +29,7 @@ export const load = async () => {
       ['--background-accent', '#2e2e2e'],
       ['--text-normal', '#fff'],
       ['--background-floating', '#3d3d3d'],
-      ['--background-primary', '#000000'],
+      ['--background-tertiary', '#000000'],
       ['--background-secondary', '#1b1a19'],
       // ['--interactive-hover', '#fff'],
       ['--interactive-normal', '#adadad'],
