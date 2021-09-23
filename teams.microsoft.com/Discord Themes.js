@@ -51,7 +51,12 @@ export const load = async () => {
     }
   }
   
-  CSS.add(``);
+  CSS.add(`body {
+    --color-bg-secondary: var(--background-secondary);
+    --brand-background: var(--brand-experiment, var(--text-link, var(--brand-600)));
+    --color-brand-text4: var(--text-link, var(--color-brand7));
+    --color-base-white: var(--text-normal);
+  }`);
   
   
   // CSS.add(`@import "${prompt('Theme Link')}";`);
