@@ -12,6 +12,9 @@
   "app.slack.com": [
     "Discord Themes.js"
   ],
+  "teams.microsoft.com": [
+    "DIscord Themes.js"
+  ],
   "themes": [
     "Darkest.css",
     "Dracula.css",
