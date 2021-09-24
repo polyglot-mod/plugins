@@ -21,7 +21,8 @@
     "Dracula.css",
     "Gruvbox.css",
     "Nord.css",
-    "Solarized Dark.css"
+    "Solarized Dark.css",
+    "Custom CSS.js"
   ],
   "www.guilded.gg": [
     "Discord Themes.js",
