@@ -1,32 +1,128 @@
 {
   "app.element.io": [
-    "Discord Themes.js"
+    {
+      "file": "Discord Themes.js",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    }
   ],
   "app.revolt.chat": [
-    "Discord Themes.js",
-    "No Server Banners.css",
-    "Role Colored Messages.js"
+    {
+      "file": "Discord Themes.js",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    },
+    {
+      "file": "No Server Banners.css",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    },
+    {
+      "file": "Role Colored Messages.js",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    }
   ],
   "app.slack.com": [
-    "Discord Themes.js"
+    {
+      "file": "Discord Themes.js",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    }
   ],
   "generic": [
-    "Custom CSS.js",
-    "Square Avatars.css"
+    {
+      "file": "Custom CSS.js",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    },
+    {
+      "file": "Square Avatars.css",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    }
   ],
   "teams.microsoft.com": [
-    "Discord Themes.js"
+    {
+      "file": "Discord Themes.js",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    }
   ],
   "themes": [
-    "Darkest.css",
-    "Discord.css",
-    "Dracula.css",
-    "Gruvbox.css",
-    "Nord.css",
-    "Solarized Dark.css"
+    {
+      "file": "Darkest.css",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    },
+    {
+      "file": "Discord.css",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    },
+    {
+      "file": "Dracula.css",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    },
+    {
+      "file": "Gruvbox.css",
+      "author": {
+        "name": "Circuit",
+        "picture": "https://cdn.discordapp.com/avatars/255114091360681986/7fe79de071f37e571f116d3ac989c956.webp?size=64"
+      }
+    },
+    {
+      "file": "Nord.css",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    },
+    {
+      "file": "Solarized Dark.css",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    }
   ],
   "www.guilded.gg": [
-    "Discord Themes.js",
-    "Role Colored Messages.js"
+    {
+      "file": "Discord Themes.js",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    },
+    {
+      "file": "Role Colored Messages.js",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    }
   ]
 }
