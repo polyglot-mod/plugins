@@ -1,33 +1,32 @@
 {
   "app.element.io": [
-    "Discord Themes.js",
-    "Square Avatars.css"
+    "Discord Themes.js"
   ],
   "app.revolt.chat": [
     "Discord Themes.js",
     "No Server Banners.css",
-    "Role Colored Messages.js",
-    "Square Avatars.css"
+    "Role Colored Messages.js"
   ],
   "app.slack.com": [
     "Discord Themes.js"
   ],
-  "teams.microsoft.com": [
-    "Discord Themes.js",
+  "generic": [
+    "Custom CSS.js",
     "Square Avatars.css"
+  ],
+  "teams.microsoft.com": [
+    "Discord Themes.js"
   ],
   "themes": [
     "Darkest.css",
+    "Discord.css",
     "Dracula.css",
     "Gruvbox.css",
     "Nord.css",
-    "Solarized Dark.css",
-    "Custom CSS.js",
-    "Discord.css"
+    "Solarized Dark.css"
   ],
   "www.guilded.gg": [
     "Discord Themes.js",
-    "Role Colored Messages.js",
-    "Square Avatars.css"
+    "Role Colored Messages.js"
   ]
 }

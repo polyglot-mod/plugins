@@ -1,0 +1,10 @@
+/* Generic sources and classes */
+img[src*="avatar" i], img[src*="icon" i], img[src*="profilepicture" i],
+img[class*="avatar" i],
+/* Specific Fixes */
+
+/* Teams */
+thread .ts-message .media-left > .wrapper
+{
+  border-radius: 4px !important;
+}
