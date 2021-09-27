@@ -1,5 +1,9 @@
 /* { "author": { "name": "Circuit", "picture": "https://cdn.discordapp.com/avatars/255114091360681986/7fe79de071f37e571f116d3ac989c956.webp?size=64"} } */
 
+.theme-dark, .theme-light {
+  --brand-experiment: var(--header-spotify);
+}
+
 .theme-dark {
   --background-primary: #282828;
   --background-secondary: #3c3836;
