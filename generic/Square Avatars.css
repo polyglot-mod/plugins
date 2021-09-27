@@ -1,10 +1,17 @@
 /* Generic sources and classes */
 img[src*="avatar" i], img[src*="icon" i], img[src*="profilepicture" i],
 [class*="avatar" i],
+[id*="avatar" i],
 /* Specific Fixes */
 
 /* Teams */
-thread .ts-message .media-left > .wrapper
+thread .ts-message .media-left > .wrapper,
+
+/* YouTube Comments */
+#author-thumbnail.ytd-comment-renderer yt-img-shadow.ytd-comment-renderer,
+
+/* YouTube Topbar Avatar Button */
+yt-img-shadow.ytd-topbar-menu-button-renderer
 {
   border-radius: 4px !important;
 }

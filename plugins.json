@@ -131,5 +131,14 @@
         "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
       }
     }
+  ],
+  "www.youtube.com": [
+    {
+      "file": "Discord Themes.js",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    }
   ]
 }
