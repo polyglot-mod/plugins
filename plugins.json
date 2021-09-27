@@ -40,32 +40,7 @@
       }
     }
   ],
-  "generic": [
-    {
-      "file": "Custom CSS.js",
-      "author": {
-        "name": "Ducko",
-        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
-      }
-    },
-    {
-      "file": "Square Avatars.css",
-      "author": {
-        "name": "Ducko",
-        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
-      }
-    }
-  ],
-  "teams.microsoft.com": [
-    {
-      "file": "Discord Themes.js",
-      "author": {
-        "name": "Ducko",
-        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
-      }
-    }
-  ],
-  "themes": [
+  "discord-themes": [
     {
       "file": "Darkest.css",
       "author": {
@@ -106,6 +81,40 @@
       "author": {
         "name": "Ducko",
         "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    }
+  ],
+  "generic": [
+    {
+      "file": "Custom CSS.js",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    },
+    {
+      "file": "Square Avatars.css",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    }
+  ],
+  "teams.microsoft.com": [
+    {
+      "file": "Discord Themes.js",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    }
+  ],
+  "vscode-themes": [
+    {
+      "file": "One Dark Pro.js",
+      "author": {
+        "name": "binaryify",
+        "picture": "https://avatars.githubusercontent.com/u/12221718?v=4"
       }
     }
   ],
