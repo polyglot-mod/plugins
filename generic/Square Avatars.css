@@ -1,6 +1,6 @@
 /* Generic sources and classes */
 img[src*="avatar" i], img[src*="icon" i], img[src*="profilepicture" i],
-img[class*="avatar" i],
+[class*="avatar" i],
 /* Specific Fixes */
 
 /* Teams */
