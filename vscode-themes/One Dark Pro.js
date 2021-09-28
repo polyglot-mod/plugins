@@ -1,36 +1,13 @@
 /* { "author": { "name": "binaryify", "picture": "https://avatars.githubusercontent.com/u/12221718?v=4"} } */
 
-let CSS;
+let VSCode;
 
 export const load = async () => {
-  CSS = await import(`https://polyglot-mod.github.io/standard/src/css.js?_${Date.now()}`);
+  VSCode = await import(`https://polyglot-mod.github.io/standard/src/theme-compat/vscode.js?_${Date.now()}`);
   
-  const themeUrl = `https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/themes/OneDark-Pro.json`;
-  const theme = await (await fetch(themeUrl)).json();
-  
-  CSS.add(`.theme-dark, .theme-light {
-    --background-primary: ${theme.colors['editor.background']}; /* Main editor background */
-    --background-secondary: ${theme.colors['sideBar.background']}; /* Sidebar (left or right with file explorer, etc.) */
-    --background-secondary-alt: ${theme.colors['tab.hoverBackground']};
-    --background-tertiary: ${theme.colors['tab.border']};
-  
-    --channeltextarea-background: var(--background-tertiary);
-  
-    --background-accent: ${theme.colors['input.background']}; /* Background for inputs */
-    --background-floating: ${theme.colors['button.secondaryBackground']}; /* Background for buttons */
-  
-    --brand-experiment: ${theme.colors['textLink.foreground']}; /* Background for links */
-  
-    --text-link: var(--brand-experiment);
-    --text-normal: ${theme.colors['editor.foreground']}; /* Foreground for main editor */
-    --text-muted: ${theme.colors['editorActiveLineNumber.foreground']};
-    --interactive-normal: ${theme.colors['descriptionForeground']}; /* Foreground for descriptions */
-    --interactive-hover: var(--text-normal);
-    --interactive-active: ${theme.colors['settings.headerForeground']}; /* Foreground for headers */
-    --interactive-muted: var(--text-muted);
-  }`);
+  VSCode.add(`https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/themes/OneDark-Pro.json`);
 };
 
 export const unload = () => {
-  CSS.remove();
+  VSCode.remove();
 };
