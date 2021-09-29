@@ -26,11 +26,11 @@ export const load = async () => {
     --yt-spec-general-background-b: var(--background-secondary) !important;
     --yt-spec-brand-background-solid: var(--background-secondary) !important;
 
-    --ytd-searchbox-background: var(--background-secondary-alt) !important;
+    --ytd-searchbox-background: var(--background-tertiary) !important;
     --ytd-searchbox-legacy-button-color: var(--background-accent) !important;
 
-    --ytd-searchbox-legacy-button-border-color: var(--background-secondary-alt) !important;
-    --ytd-searchbox-legacy-border-color: var(--background-accent) !important;
+    --ytd-searchbox-legacy-border-color: var(--ytd-searchbox-legacy-button-color) !important;
+    --ytd-searchbox-legacy-button-border-color: var(--ytd-searchbox-background) !important;
 
     --yt-spec-badge-chip-background: var(--background-secondary) !important;
 
@@ -41,6 +41,7 @@ export const load = async () => {
 
     --yt-spec-brand-button-background: var(--brand-experiment) !important;
     --yt-spec-brand-link-text: var(--brand-experiment) !important;
+    --yt-spec-static-brand-red: var(--brand-experiment) !important;
     --yt-spec-call-to-action: var(--text-link) !important;
 
     --yt-spec-icon-active-other: var(--interactive-hover) !important;
@@ -50,9 +51,17 @@ export const load = async () => {
     --yt-spec-icon-inactive: var(--interactive-normal) !important;
     --yt-spec-icon-disabled: var(--text-muted) !important;
     --yt-spec-brand-icon-inactive: var(--interactive-hover) !important;
+  }
+  
+  ytd-thumbnail-overlay-resume-playback-renderer {
+    background-color: var(--background-tertiary);
   }`);
   
   
   // CSS.add(`@import "${prompt('Theme Link')}";`);
   // CSS.add(await (await fetch(prompt('Theme Link:'))).text());
+};
+
+export const unload = () => {
+  CSS.remove();
 };
