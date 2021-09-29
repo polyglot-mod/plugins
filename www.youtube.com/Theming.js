@@ -26,6 +26,8 @@ export const load = async () => {
     --yt-spec-general-background-b: var(--background-secondary) !important;
     --yt-spec-brand-background-solid: var(--background-secondary) !important;
 
+    --yt-spec-10-percent-layer: var(--background-accent) !important;
+
     --ytd-searchbox-background: var(--background-tertiary) !important;
     --ytd-searchbox-legacy-button-color: var(--background-accent) !important;
 
@@ -57,8 +59,9 @@ export const load = async () => {
     background-color: var(--background-tertiary);
   }
   
-  .ytp-swatch-background-color {
+  .ytp-swatch-background-color, .ytp-live-badge[disabled]:before {
     background-color: var(--yt-spec-static-brand-red);
+    filter: contrast(100);
   }`);
   
   
