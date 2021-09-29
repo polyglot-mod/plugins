@@ -1,14 +1,14 @@
 {
   "app.element.io": [
     {
-      "file": "Discord Themes.js",
+      "file": "Hide Membership Changes.js",
       "author": {
         "name": "Ducko",
         "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
       }
     },
     {
-      "file": "Hide Membership Changes.js",
+      "file": "Theming.js",
       "author": {
         "name": "Ducko",
         "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
@@ -16,13 +16,6 @@
     }
   ],
   "app.revolt.chat": [
-    {
-      "file": "Discord Themes.js",
-      "author": {
-        "name": "Ducko",
-        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
-      }
-    },
     {
       "file": "No Server Banners.css",
       "author": {
@@ -36,11 +29,18 @@
         "name": "Ducko",
         "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
       }
+    },
+    {
+      "file": "Theming.js",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
     }
   ],
   "app.slack.com": [
     {
-      "file": "Discord Themes.js",
+      "file": "Theming.js",
       "author": {
         "name": "Ducko",
         "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
@@ -109,7 +109,7 @@
   ],
   "teams.microsoft.com": [
     {
-      "file": "Discord Themes.js",
+      "file": "Theming.js",
       "author": {
         "name": "Ducko",
         "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
@@ -148,13 +148,6 @@
   ],
   "www.guilded.gg": [
     {
-      "file": "Discord Themes.js",
-      "author": {
-        "name": "Ducko",
-        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
-      }
-    },
-    {
       "file": "No Server Banners.css",
       "author": {
         "name": "Ducko",
@@ -167,11 +160,18 @@
         "name": "Ducko",
         "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
       }
+    },
+    {
+      "file": "Theming.js",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
     }
   ],
   "www.youtube.com": [
     {
-      "file": "Discord Themes.js",
+      "file": "Theming.js",
       "author": {
         "name": "Ducko",
         "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
