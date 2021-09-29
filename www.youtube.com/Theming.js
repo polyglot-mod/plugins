@@ -55,6 +55,10 @@ export const load = async () => {
   
   ytd-thumbnail-overlay-resume-playback-renderer {
     background-color: var(--background-tertiary);
+  }
+  
+  .ytp-swatch-background-color {
+    background-color: var(--yt-spec-static-brand-red);
   }`);
   
   
