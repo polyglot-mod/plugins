@@ -24,10 +24,13 @@ export const load = async () => {
 
     --yt-spec-general-background-a: var(--background-primary) !important;
     --yt-spec-general-background-b: var(--background-secondary) !important;
-    --ytd-searchbox-background: var(--background-floating) !important;
     --yt-spec-brand-background-solid: var(--background-secondary) !important;
 
-    --ytd-searchbox-legacy-button-color: var(--background-tertiary) !important;
+    --ytd-searchbox-background: var(--background-secondary-alt) !important;
+    --ytd-searchbox-legacy-button-color: var(--background-accent) !important;
+
+    --ytd-searchbox-legacy-button-border-color: var(--background-secondary-alt) !important;
+    --ytd-searchbox-legacy-border-color: var(--background-accent) !important;
 
     --yt-spec-badge-chip-background: var(--background-secondary) !important;
 
