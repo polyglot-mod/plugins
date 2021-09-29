@@ -47,6 +47,16 @@ export const load = async () => {
     --yt-spec-call-to-action: var(--text-link) !important;
 
     --yt-spec-icon-active-other: var(--interactive-hover) !important;
+
+    --yt-live-chat-vem-background-color: var(--background-floating) !important;
+    --yt-live-chat-banner-gradient-scrim: linear-gradient(var(--background-secondary), transparent); !important;
+    --yt-live-chat-primary-text-color: var(--text-normal) !important;
+    --yt-live-chat-secondary-text-color: var(--text-muted) !important;
+    --yt-live-chat-tertiary-text-color: var(--text-muted) !important;
+    --yt-live-chat-secondary-background-color: var(--background-secondary) !important;
+    --yt-live-chat-toast-background-color: var(--background-floating) !important;
+    --yt-live-chat-mode-change-background-color: var(--background-floating) !important;
+    --yt-live-chat-author-chip-owner-background-color: var(--brand-experiment) !important;
   }
   
   html:not(.style-scope)[system-icons]:not(.style-scope)[dark], html:not(.style-scope)[system-icons] :not(.style-scope)[dark] {
@@ -62,6 +72,14 @@ export const load = async () => {
   .ytp-swatch-background-color, .ytp-live-badge[disabled]:before {
     background-color: var(--yt-spec-static-brand-red);
     filter: contrast(100);
+  }
+  
+  yt-icon-button.yt-live-chat-item-list-renderer {
+    background-color: var(--yt-spec-call-to-action);
+  }
+  
+  .yt-live-interactivity-component-background {
+    fill: var(--background-floating);
   }`);
   
   
