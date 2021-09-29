@@ -1,7 +1,7 @@
 /* Generic sources and classes */
 img[src*="avatar" i], img[src*="icon" i], img[src*="profilepicture" i],
 [class*="avatar" i],
-[id*="avatar" i],
+[id*="avatar" i], [id*="author-photo" i],
 /* Specific Fixes */
 
 /* Teams */
