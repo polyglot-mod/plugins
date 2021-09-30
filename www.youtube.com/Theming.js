@@ -71,7 +71,7 @@ export const load = async () => {
   
   .ytp-swatch-background-color, .ytp-live-badge[disabled]:before {
     background-color: var(--yt-spec-static-brand-red);
-    filter: contrast(100);
+    /* filter: contrast(100); */
   }
   
   yt-icon-button.yt-live-chat-item-list-renderer {
