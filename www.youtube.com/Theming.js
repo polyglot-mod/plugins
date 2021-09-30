@@ -47,6 +47,9 @@ export const load = async () => {
     --yt-spec-call-to-action: var(--text-link) !important;
 
     --yt-spec-icon-active-other: var(--interactive-hover) !important;
+    --yt-spec-icon-inactive: var(--interactive-normal) !important;
+    --yt-spec-icon-disabled: var(--text-muted) !important;
+    --yt-spec-brand-icon-inactive: var(--interactive-hover) !important;
 
     --yt-live-chat-vem-background-color: var(--background-floating) !important;
     --yt-live-chat-banner-gradient-scrim: linear-gradient(var(--background-secondary), transparent); !important;
@@ -65,21 +68,33 @@ export const load = async () => {
     --yt-spec-brand-icon-inactive: var(--interactive-hover) !important;
   }
   
+  /* Video thumbnail progress */
   ytd-thumbnail-overlay-resume-playback-renderer {
     background-color: var(--background-tertiary);
   }
   
+  /* Video progress bar */
   .ytp-swatch-background-color, .ytp-live-badge[disabled]:before {
     background-color: var(--yt-spec-static-brand-red);
     /* filter: contrast(100); */
   }
-  
+
+  /* Chat fixes */
   yt-icon-button.yt-live-chat-item-list-renderer {
     background-color: var(--yt-spec-call-to-action);
   }
   
   .yt-live-interactivity-component-background {
     fill: var(--background-floating);
+  }
+
+  [dark] yt-live-chat-app ::-webkit-scrollbar-thumb, [dark] yt-live-chat-kevlar-container ::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-auto-thumb, var(--brand-experiment));
+    border-color: var(--scrollbar-auto-track, var(--background-secondary-alt)) !important;
+  }
+  
+  [watch-color-update] yt-live-chat-app ::-webkit-scrollbar-track, [watch-color-update] yt-live-chat-kevlar-container ::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-auto-track, var(--background-secondary-alt));
   }`);
   
   
