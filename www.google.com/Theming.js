@@ -29,6 +29,7 @@ export const load = async () => {
       ['--background-accent', '#ecedef'],
       ['--background-accent', '#ebeaed'],
       ['--interactive-normal', '#202124'],
+      ['--interactive-normal', 'rgba(0, 0, 0, 0.87)'],
       ['--interactive-normal', 'rgba(0,0,0,.87)'],
       ['--text-muted', '#3c4043'],
       ['--text-muted', '#4d5156'],
