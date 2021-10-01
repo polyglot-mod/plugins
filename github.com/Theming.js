@@ -49,6 +49,17 @@ export const load = async () => {
     --color-btn-bg: var(--background-floating);
     --color-btn-border: var(--background-accent);
 
+    --color-btn-primary-bg: var(--text-link);
+    --color-btn-primary-text: var(--color-btn-text);
+    --color-btn-primary-border: var(--color-btn-border);
+
+    --color-btn-primary-focus-bg: var(--color-btn-primary-bg);
+    --color-btn-primary-focus-border: var(--color-btn-primary-border);
+
+    --color-btn-primary-hover-bg: var(--color-btn-primary-bg);
+    --color-btn-primary-hover-border: var(--color-btn-primary-border);
+
+
     --color-primer-border-active: var(--text-link);
   }
 
