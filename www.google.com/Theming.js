@@ -32,6 +32,7 @@ export const load = async () => {
       ['--interactive-normal', 'rgba(0, 0, 0, 0.87)'],
       ['--interactive-normal', 'rgba(0,0,0,.87)'],
       ['--text-muted', '#3c4043'],
+      ['--interactive-normal', '#212121'],
       ['--text-muted', '#4d5156'],
       ['--brand-experiment', '#1a73e8'],
       ['--text-muted', '#5f6368'],
