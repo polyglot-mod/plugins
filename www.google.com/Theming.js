@@ -27,8 +27,9 @@ export const load = async () => {
       ['--background-accent', '#dadce0'],
       ['--background-accent', '#ebebeb'],
       ['--background-accent', '#ecedef'],
+      ['--background-accent', '#ebeaed'],
       ['--interactive-normal', '#202124'],
-      ['--interactive-normal', 'rgba(0,0,0,0.87)'],
+      ['--interactive-normal', 'rgba(0,0,0,.87)'],
       ['--text-muted', '#3c4043'],
       ['--text-muted', '#4d5156'],
       ['--brand-experiment', '#1a73e8'],
@@ -36,7 +37,7 @@ export const load = async () => {
       ['--background-accent', '#dfe1e5'],
       ['--text-muted', '#70757a'],
       ['--text-muted', '#9aa0a6'],
-      ['--header-primary', '#000'],
+      ['--header-primary', '#000000'],
       ['--text-link', '#1a0dab'],
     ].map((v) => {
       if (v[1][0] === '#') {
