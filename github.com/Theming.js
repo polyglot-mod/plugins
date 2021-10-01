@@ -23,7 +23,7 @@ export const load = async () => {
     --color-canvas-default: var(--background-primary);
     --color-canvas-overlay: var(--background-secondary);
     --color-canvas-subtle: var(--background-secondary);
-    --color-canvas-inset: var(--background-secondary-alt);
+    --color-canvas-inset: var(--background-secondary-alt, var(--background-accent));
 
     --color-neutral-muted: var(--background-accent);
     --color-neutral-emphasis-plus: var(--background-accent);
@@ -41,7 +41,7 @@ export const load = async () => {
     --color-border-default: var(--background-accent);
     --color-border-muted: var(--background-tertiary);
 
-    --color-page-header-bg: var(--background-secondary-alt);
+    --color-page-header-bg: var(--background-primary);
 
     --color-header-bg: var(--background-secondary);
     --color-header-text: var(--interactive-hover);
@@ -55,7 +55,7 @@ export const load = async () => {
     --color-btn-border: var(--background-accent);
 
     --color-btn-primary-bg: var(--text-link);
-    --color-btn-primary-text: var(--interactive-active);
+    --color-btn-primary-text: #fff;
     --color-btn-primary-border: var(--color-btn-border);
 
     --color-btn-primary-focus-bg: var(--color-btn-primary-bg);
@@ -70,5 +70,9 @@ export const load = async () => {
 
   .notification-indicator .mail-status {
     background: var(--text-link);
+  }
+
+  .header-search-input::placeholder {
+    color: var(--text-muted) !important;
   }`);
 };
