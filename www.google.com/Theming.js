@@ -73,7 +73,8 @@ export const load = async () => {
     fill: var(--interactive-muted);
   }
    
-  .lJ9FBc input[type="submit"], .gbqfba {
+  .lJ9FBc input[type="submit"], .gbqfba,
+  a.pHiOh {
     color: var(--interactive-normal) !important;
   }`);
 };
