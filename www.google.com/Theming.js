@@ -63,7 +63,19 @@ export const load = async () => {
   
   CSS.add(`body, .appbar {
     background: var(--background-primary);
-   }`);
+  }
+   
+  .goxjub > :nth-child(1) {
+    fill: var(--brand-experiment) !important;
+  }
+   
+  .goxjub > * {
+    fill: var(--interactive-muted);
+  }
+   
+  .lJ9FBc input[type="submit"], .gbqfba {
+    color: var(--interactive-normal) !important;
+  }`);
 };
 
 export const unload = () => {
