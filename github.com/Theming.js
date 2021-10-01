@@ -26,11 +26,16 @@ export const load = async () => {
     --color-canvas-inset: var(--background-secondary-alt);
 
     --color-neutral-muted: var(--background-accent);
+    --color-neutral-emphasis-plus: var(--background-accent);
 
     --color-fg-default: var(--text-normal);
     --color-fg-muted: var(--text-muted);
     --color-fg-subtle: var(--text-muted);
+    --color-fg-on-emphasis: var(--text-normal);
+
     --color-accent-fg: var(--text-link);
+    --color-accent-emphasis: var(--text-link);
+
     --color-scale-white: var(--interactive-normal);
 
     --color-border-default: var(--background-accent);
@@ -39,7 +44,7 @@ export const load = async () => {
     --color-page-header-bg: var(--background-secondary-alt);
 
     --color-header-bg: var(--background-secondary);
-    --color-header-text: var(--interactive-normal);
+    --color-header-text: var(--interactive-hover);
     --color-header-logo: var(--interactive-normal);
 
     --color-header-search-bg: var(--background-primary);
@@ -50,7 +55,7 @@ export const load = async () => {
     --color-btn-border: var(--background-accent);
 
     --color-btn-primary-bg: var(--text-link);
-    --color-btn-primary-text: var(--color-btn-text);
+    --color-btn-primary-text: var(--interactive-active);
     --color-btn-primary-border: var(--color-btn-border);
 
     --color-btn-primary-focus-bg: var(--color-btn-primary-bg);
