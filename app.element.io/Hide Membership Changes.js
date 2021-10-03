@@ -20,7 +20,7 @@ const removeUnneededDates = () => {
 };
 
 export const load = async () => {
-  CSS = await import(`https://polyglot-mod.github.io/standard/src/css.js?_${Date.now()}`);
+  CSS = await import(`https://standard.polymod.dev/src/css.js?_${Date.now()}`);
 
   CSS.add(`.mx_EventListSummary {
     display: none;
