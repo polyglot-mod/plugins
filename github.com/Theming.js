@@ -1,7 +1,7 @@
 let CSS;
 
 export const load = async () => {
-  CSS = await import(`https://standard.polymod.dev/src/css.js?_${Date.now()}`);
+  CSS = await import(`https://standard.polymod.dev/css.js?_${Date.now()}`);
 
   const classRemap = {
     /* '.sc-laRQdt.eAQDAO': 'sidebar-2K8pFh',
