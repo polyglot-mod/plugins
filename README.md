@@ -1,2 +1,2 @@
 # plugins
-Polyglot plugins
+Polymod plugins
