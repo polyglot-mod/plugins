@@ -8,7 +8,7 @@ const jsonPath = join(__dirname, 'plugins.json');
 
 const json = {};
 
-const blocklist = ['LICENSE', 'plugins.json', 'README.md', 'generateJson.mjs', '.git'];
+const blocklist = ['LICENSE', 'plugins.json', 'README.md', 'generateJson.mjs', '.git', 'CNAME'];
 for (const host of readdirSync(__dirname).filter((x) => !blocklist.includes(x))) {
   json[host] = readdirSync(join(__dirname, host)).map((x) => {
     let meta = {};
