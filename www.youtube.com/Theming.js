@@ -1,8 +1,6 @@
-let CSS;
+import * as CSS from 'https://standard.polymod.dev/css.js';
 
 export const load = async () => {
-  CSS = await import(`https://standard.polymod.dev/css.js?_${Date.now()}`);
-
   const classRemap = {
     /* '.sc-laRQdt.eAQDAO': 'sidebar-2K8pFh',
     '.sc-nFqVA.dGrZZ': 'wrapper-3NnKdC guilds-1SWlCJ',
@@ -96,10 +94,6 @@ export const load = async () => {
   [watch-color-update] yt-live-chat-app ::-webkit-scrollbar-track, [watch-color-update] yt-live-chat-kevlar-container ::-webkit-scrollbar-track {
     background-color: var(--scrollbar-auto-track, var(--background-secondary-alt));
   }`);
-  
-  
-  // CSS.add(`@import "${prompt('Theme Link')}";`);
-  // CSS.add(await (await fetch(prompt('Theme Link:'))).text());
 };
 
 export const unload = () => {

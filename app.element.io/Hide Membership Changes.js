@@ -1,4 +1,6 @@
-let CSS, interval;
+import * as CSS from 'https://standard.polymod.dev/css.js';
+
+let interval;
 
 const removeUnneededDates = () => {
   const children = [...document.querySelector('.mx_RoomView_MessageList').children];
@@ -20,8 +22,6 @@ const removeUnneededDates = () => {
 };
 
 export const load = async () => {
-  CSS = await import(`https://standard.polymod.dev/css.js?_${Date.now()}`);
-
   CSS.add(`.mx_EventListSummary {
     display: none;
   }`);
