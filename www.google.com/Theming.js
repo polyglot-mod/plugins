@@ -25,6 +25,7 @@ export default new (class PluginWrapper extends Plugin {
       ['--text-muted', '#9aa0a6'],
       ['--header-primary', '#000000'],
       ['--text-link', '#1a0dab'],
+      ['--background-accent', 'rgb(241, 243, 244)']
     ]);
     
     this.CSS.add(`body, .appbar {
@@ -42,6 +43,14 @@ export default new (class PluginWrapper extends Plugin {
     .lJ9FBc input[type="submit"], .gbqfba,
     a.pHiOh {
       color: var(--interactive-normal) !important;
+    }
+    
+    input {
+      background: var(--background-secondary-alt);
+    }
+    
+    .dw-sb-cont .dw-sb-btn {
+      background: var(--background-accent);
     }`);
   }
 });
