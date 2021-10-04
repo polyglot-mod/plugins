@@ -28,9 +28,9 @@ export default new (class PluginWrapper extends Plugin {
       ['--background-accent', 'rgb(241, 243, 244)']
     ]);
     
-    this.CSS.add(`body, .appbar {
+    this.CSS.add(`/* body, .appbar {
       background: var(--background-primary);
-    }
+    } */
     
     .goxjub > :nth-child(1) {
       fill: var(--brand-experiment) !important;
@@ -47,10 +47,6 @@ export default new (class PluginWrapper extends Plugin {
     
     input {
       background: var(--background-secondary-alt);
-    }
-    
-    .dw-sb-cont .dw-sb-btn {
-      background: var(--background-accent);
     }`);
   }
 });
