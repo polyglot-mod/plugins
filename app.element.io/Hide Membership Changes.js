@@ -1,4 +1,4 @@
-import * as CSS from 'https://standard.polymod.dev/css.js';
+import Plugin from 'https://standard.polymod.dev/plugin.js';
 
 let interval;
 
@@ -21,18 +21,19 @@ const removeUnneededDates = () => {
   }
 };
 
-export const load = async () => {
-  CSS.add(`.mx_EventListSummary {
-    display: none;
-  }`);
+export default new (class PluginWrapper extends Plugin {
+  load() {
+    this.CSS.add(`.mx_EventListSummary {
+      display: none;
+    }`);
 
-  interval = setInterval(removeUnneededDates, 500);
-  removeUnneededDates();
-};
+    interval = setInterval(removeUnneededDates, 500);
+    removeUnneededDates();
+  }
 
-export const unload = () => {
-  clearInterval(interval);
-  CSS.remove();
+  unload() {
+    clearInterval(interval);
 
-  document.querySelectorAll('.mx_RoomView_MessageList li:not([class])').forEach((x) => x.style.display = '');
-};
+    document.querySelectorAll('.mx_RoomView_MessageList li:not([class])').forEach((x) => x.style.display = '');
+  }
+});
