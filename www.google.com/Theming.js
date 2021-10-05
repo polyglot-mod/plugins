@@ -10,6 +10,7 @@ export default new (class PluginWrapper extends Plugin {
       ['--background-secondary', '#f2f2f2'],
       ['--background-accent', '#dadce0'],
       ['--background-accent', '#ebebeb'],
+      ['--background-accent', '#e5e5e5'],
       ['--background-accent', '#ecedef'],
       ['--background-accent', '#e8eaed'],
       ['--interactive-normal', '#202124'],
