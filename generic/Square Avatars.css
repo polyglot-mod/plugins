@@ -9,12 +9,14 @@ thread .ts-message .media-left > .wrapper,
 
 /* YouTube Comments */
 #author-thumbnail.ytd-comment-renderer yt-img-shadow.ytd-comment-renderer,
-
 /* YouTube Topbar Avatar Button */
 yt-img-shadow.ytd-topbar-menu-button-renderer,
 
 /* Spotify Artist Profile Pictures */
-.TuIwwxJRyUP5_bmIyLEp, ._l6lIm7W__LMY1mfvaQ1
+.TuIwwxJRyUP5_bmIyLEp, ._l6lIm7W__LMY1mfvaQ1,
+
+/* Google Account Picture */
+.gb_Ca
 {
   border-radius: 4px !important;
   -webkit-mask-image: none !important;
