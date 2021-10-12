@@ -1,4 +1,4 @@
-/* { "author": { "name": "GitHub", "picture": "https://uploads-ssl.webflow.com/5e876db92c1511e528b6c1b4/60b528a65235828a611c8f47_Github_Staat.svg"} } */
+/* { "author": { "name": "GitHub", "picture": "https://uploads-ssl.webflow.com/5e876db92c1511e528b6c1b4/60b528a65235828a611c8f47_Github_Staat.svg"}, "under": "GitHub Theme", "under_as": "Light" } */
 
 export const vscode = {
   "name": "GitHub Light Default",
