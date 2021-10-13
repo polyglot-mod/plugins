@@ -1,0 +1,2 @@
+/* {"file":"_Dribbblish - Beach Sunset.js","under":"Dribbblish","under_as":"Beach Sunset","author":{"name":"JulienMaille","picture":"https://avatars.githubusercontent.com/u/182520?v=4"}} */
+export const spicetify = {"text":"FFFFFF","subtext":"F0F0F0","sidebar-text":"F0F0F0","main":"262626","sidebar":"bd3e3e","player":"262626","card":"262626","shadow":"000000","selected-row":"d1d6e2","button":"f1a84f","button-active":"c98430","button-disabled":"535353","tab-active":"f1a84f","notification":"c98430","notification-error":"e22134","misc":"BFBFBF"};

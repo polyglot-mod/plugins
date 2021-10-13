@@ -1,0 +1,1 @@
+/* { "spicetify": "https://raw.githubusercontent.com/FivePixels/Tidal/master/color.ini", "author": { "name": "FivePixels", "picture": "https://avatars.githubusercontent.com/u/37427166?v=4"} } */

@@ -1,0 +1,1 @@
+/* { "spicetify": "https://raw.githubusercontent.com/JulienMaille/dribbblish-dynamic-theme/main/color.ini", "author": { "name": "JulienMaille", "picture": "https://avatars.githubusercontent.com/u/182520?v=4"} } */

@@ -1,0 +1,2 @@
+/* {"file":"_Tidal - Base.js","under":"Tidal","under_as":"Base","author":{"name":"FivePixels","picture":"https://avatars.githubusercontent.com/u/37427166?v=4"}} */
+export const spicetify = {"text":"FFFFFF","subtext":"fcfcfc","main":"17171A","sidebar":"242528","player":"242528","card":"242528","shadow":"000000","selected-row":"FFFFFF","button":"FFFFFF","button-active":"00FFFF","button-disabled":"535353","tab-active":"242528","notification":"242528","notification-error":"cd0030","misc":"BFBFBF"};

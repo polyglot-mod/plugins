@@ -1,0 +1,2 @@
+/* {"file":"_Dribbblish - Samourai.js","under":"Dribbblish","under_as":"Samourai","author":{"name":"JulienMaille","picture":"https://avatars.githubusercontent.com/u/182520?v=4"}} */
+export const spicetify = {"text":"ebdbb2","subtext":"ebdbb2","sidebar-text":"461217","main":"461217","sidebar":"ebdbb2","player":"461217","card":"461217","shadow":"3a2645","selected-row":"909090","button":"e7a52d","button-active":"e7a52d","button-disabled":"535353","tab-active":"e7a52d","notification":"e7a52d","notification-error":"e22134","misc":"BFBFBF"};

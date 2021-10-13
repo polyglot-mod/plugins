@@ -1,0 +1,2 @@
+/* {"file":"_Dribbblish - Dracula.js","under":"Dribbblish","under_as":"Dracula","author":{"name":"JulienMaille","picture":"https://avatars.githubusercontent.com/u/182520?v=4"}} */
+export const spicetify = {"text":"f8f8f2","subtext":"f8f8f2","sidebar-text":"F0F0F0","main":"44475a","sidebar":"6272a4","player":"44475a","card":"6272a4","shadow":"000000","selected-row":"bd93f9","button":"ffb86c","button-active":"8be9fd","button-disabled":"535353","tab-active":"6272a4","notification":"bd93f9","notification-error":"e22134","misc":"BFBFBF"};

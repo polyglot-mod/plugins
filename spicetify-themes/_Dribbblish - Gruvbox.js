@@ -1,0 +1,2 @@
+/* {"file":"_Dribbblish - Gruvbox.js","under":"Dribbblish","under_as":"Gruvbox","author":{"name":"JulienMaille","picture":"https://avatars.githubusercontent.com/u/182520?v=4"}} */
+export const spicetify = {"text":"fbf1c7","subtext":"d5c4a1","sidebar-text":"32302f","main":"292828","sidebar":"689d6a","player":"292828","card":"3c3836","shadow":"202020","selected-row":"d5c4a1","button":"fb4934","button-active":"cc241d","button-disabled":"bdae93","tab-active":"fb4934","notification":"8ec07c","notification-error":"d79921","misc":"BFBFBF"};

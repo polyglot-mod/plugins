@@ -1,0 +1,2 @@
+/* {"file":"_Dribbblish - Purple.js","under":"Dribbblish","under_as":"Purple","author":{"name":"JulienMaille","picture":"https://avatars.githubusercontent.com/u/182520?v=4"}} */
+export const spicetify = {"text":"f1eaff","subtext":"f1eaff","sidebar-text":"e0d0ff","main":"0A0E14","sidebar":"6F3C89","player":"0A0E14","card":"0A0E14","shadow":"3a2645","selected-row":"EBDFFF","button":"c76af6","button-active":"6F3C89","button-disabled":"535353","tab-active":"58306D","notification":"ff9e00","notification-error":"f61379","misc":"DEDEDE"};

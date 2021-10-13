@@ -1,0 +1,2 @@
+/* {"file":"_Dribbblish - Dark.js","under":"Dribbblish","under_as":"Dark","author":{"name":"JulienMaille","picture":"https://avatars.githubusercontent.com/u/182520?v=4"}} */
+export const spicetify = {"text":"F0F0F0","subtext":"F0F0F0","sidebar-text":"0a0e14","main":"0a0e14","sidebar":"C2D935","player":"0a0e14","card":"0a0e14","shadow":"202020","selected-row":"DEDEDE","button":"C2D935","button-active":"C2D935","button-disabled":"535353","tab-active":"727d2b","notification":"C2D935","notification-error":"e22134","misc":"BFBFBF"};

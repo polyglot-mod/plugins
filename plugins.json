@@ -141,6 +141,107 @@
       }
     }
   ],
+  "spicetify-themes": [
+    {
+      "file": "_Dribbblish - Base.js",
+      "under": "Dribbblish",
+      "under_as": "Base",
+      "author": {
+        "name": "JulienMaille",
+        "picture": "https://avatars.githubusercontent.com/u/182520?v=4"
+      }
+    },
+    {
+      "file": "_Dribbblish - White.js",
+      "under": "Dribbblish",
+      "under_as": "White",
+      "author": {
+        "name": "JulienMaille",
+        "picture": "https://avatars.githubusercontent.com/u/182520?v=4"
+      }
+    },
+    {
+      "file": "_Dribbblish - Dark.js",
+      "under": "Dribbblish",
+      "under_as": "Dark",
+      "author": {
+        "name": "JulienMaille",
+        "picture": "https://avatars.githubusercontent.com/u/182520?v=4"
+      }
+    },
+    {
+      "file": "_Dribbblish - Dracula.js",
+      "under": "Dribbblish",
+      "under_as": "Dracula",
+      "author": {
+        "name": "JulienMaille",
+        "picture": "https://avatars.githubusercontent.com/u/182520?v=4"
+      }
+    },
+    {
+      "file": "_Dribbblish - Nord Light.js",
+      "under": "Dribbblish",
+      "under_as": "Nord Light",
+      "author": {
+        "name": "JulienMaille",
+        "picture": "https://avatars.githubusercontent.com/u/182520?v=4"
+      }
+    },
+    {
+      "file": "_Dribbblish - Nord Dark.js",
+      "under": "Dribbblish",
+      "under_as": "Nord Dark",
+      "author": {
+        "name": "JulienMaille",
+        "picture": "https://avatars.githubusercontent.com/u/182520?v=4"
+      }
+    },
+    {
+      "file": "_Dribbblish - Purple.js",
+      "under": "Dribbblish",
+      "under_as": "Purple",
+      "author": {
+        "name": "JulienMaille",
+        "picture": "https://avatars.githubusercontent.com/u/182520?v=4"
+      }
+    },
+    {
+      "file": "_Dribbblish - Samourai.js",
+      "under": "Dribbblish",
+      "under_as": "Samourai",
+      "author": {
+        "name": "JulienMaille",
+        "picture": "https://avatars.githubusercontent.com/u/182520?v=4"
+      }
+    },
+    {
+      "file": "_Dribbblish - Beach Sunset.js",
+      "under": "Dribbblish",
+      "under_as": "Beach Sunset",
+      "author": {
+        "name": "JulienMaille",
+        "picture": "https://avatars.githubusercontent.com/u/182520?v=4"
+      }
+    },
+    {
+      "file": "_Dribbblish - Gruvbox.js",
+      "under": "Dribbblish",
+      "under_as": "Gruvbox",
+      "author": {
+        "name": "JulienMaille",
+        "picture": "https://avatars.githubusercontent.com/u/182520?v=4"
+      }
+    },
+    {
+      "file": "_Tidal - Base.js",
+      "under": "Tidal",
+      "under_as": "Base",
+      "author": {
+        "name": "FivePixels",
+        "picture": "https://avatars.githubusercontent.com/u/37427166?v=4"
+      }
+    }
+  ],
   "teams.microsoft.com": [
     {
       "file": "Theming.js",

@@ -1,0 +1,2 @@
+/* {"file":"_Dribbblish - Nord Light.js","under":"Dribbblish","under_as":"Nord Light","author":{"name":"JulienMaille","picture":"https://avatars.githubusercontent.com/u/182520?v=4"}} */
+export const spicetify = {"text":"2e3440","subtext":"3b4252","sidebar-text":"ECEFF4","main":"ECEFF4","sidebar":"5E81AC","player":"ECEFF4","card":"ebcb8b","shadow":"eceff4","selected-row":"4c566a","button":"81a1c1","button-active":"81a1c1","button-disabled":"c0c0c0","tab-active":"ebcb8b","notification":"a3be8c","notification-error":"bf616a","misc":"BFBFBF"};
