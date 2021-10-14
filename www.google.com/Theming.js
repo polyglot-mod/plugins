@@ -33,9 +33,9 @@ export default new (class PluginWrapper extends Plugin {
       ['--background-accent', 'rgba(218, 220, 224, 0.5)']
     ]);
     
-    this.CSS.add(`/* body, .appbar {
-      background: var(--background-primary);
-    } */
+    this.CSS.add(`body {
+      background: var(--background-primary) !important;
+    }
     
     .goxjub > :nth-child(1) {
       fill: var(--brand-experiment) !important;
