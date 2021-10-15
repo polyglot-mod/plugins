@@ -11,7 +11,7 @@ const jsonPath = join(__dirname, 'plugins.json');
 
 const json = {};
 
-const blocklist = ['LICENSE', 'plugins.json', 'README.md', 'generateJson.mjs', '.git', 'CNAME', 'node_modules'];
+const blocklist = ['LICENSE', 'plugins.json', 'README.md', 'generateJson.mjs', '.git', 'CNAME', 'node_modules', '.gitignore', '.nojekyll'];
 for (const host of readdirSync(__dirname).filter((x) => !blocklist.includes(x))) {
   json[host] = (await Promise.all(readdirSync(join(__dirname, host)).filter((x) => x[0] !== '_').map(async (x) => {
     let meta = {};
