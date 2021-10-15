@@ -100,6 +100,15 @@
       }
     }
   ],
+  "en.wikipedia.org": [
+    {
+      "file": "Theming.js",
+      "author": {
+        "name": "Ducko",
+        "picture": "https://cdn.discordapp.com/avatars/506482395269169153/947860ee160227b7ff0adcd52878c278.webp?size=64"
+      }
+    }
+  ],
   "generic": [
     {
       "file": "Custom CSS.js",
@@ -218,15 +227,6 @@
       "file": "_Dribbblish - Beach Sunset.js",
       "under": "Dribbblish",
       "under_as": "Beach Sunset",
-      "author": {
-        "name": "JulienMaille",
-        "picture": "https://avatars.githubusercontent.com/u/182520?v=4"
-      }
-    },
-    {
-      "file": "_Dribbblish - Gruvbox.js",
-      "under": "Dribbblish",
-      "under_as": "Gruvbox",
       "author": {
         "name": "JulienMaille",
         "picture": "https://avatars.githubusercontent.com/u/182520?v=4"
