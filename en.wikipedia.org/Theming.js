@@ -8,9 +8,24 @@ export default new (class PluginWrapper extends Plugin {
       ['--background-primary', '#ffffff'],
       ['--background-secondary', '#f6f6f6'],
       ['--background-secondary', '#fbfbfb'],
+      ['--background-floating', '#f9f9f9'],
       ['--background-secondary-alt', 'rgba(255, 255, 255, 0.5)'],
       ['--background-floating', '#f8f9fa'],
+      ['--background-floating', '#f5faff'],
+      ['--background-floating', '#f5fffa'],
+      ['--background-floating', '#faf5ff'],
       ['--background-accent', '#a2a9b1'],
+      ['--background-accent', '#a3bfb1'],
+      ['--background-accent', '#a3b0bf'],
+      ['--background-accent', '#afa3bf'],
+      ['--brand-experiment', '#e2e2e2'],
+      ['--brand-experiment', '#dddddd'],
+      ['--background-accent', '#a3b0bf'],
+      ['--background-floating', '#eeeeee'],
+      ['--text-normal', '#222222'],
+      ['--brand-experiment', '#ddcef2'],
+      ['--brand-experiment', '#cef2e0'],
+      ['--brand-experiment', '#cedff2'],
       ['--interactive-active', '#000000'],
       ['--text-normal', '#202122'],
       ['--text-link', '#0645ad'],
@@ -26,12 +41,12 @@ export default new (class PluginWrapper extends Plugin {
       filter: invert(1);
     }
 
-    a { /* Fixes some links randomly being set blue color without important */
+    a:not(.mwe-popups-extract) { /* Fixes some links randomly being set blue color without important */
       color: var(--text-link, rgb(6, 69, 173)) !important;
     }
-
-    /* .vector-menu-tabs li {
-      background-image: linear-gradient(to top, var(--brand-experiment) 0px, var(--background-secondary) 2px, var(--background-primary, rgb(255, 255, 255)) 100%);
-    } */`);
+    
+    #searchButton { /* Make search box icon white not black */
+      filter: invert(1);
+    }`);
   }
 });
