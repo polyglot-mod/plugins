@@ -27,6 +27,7 @@ export default new (class PluginWrapper extends Plugin {
       ['--brand-experiment', '#cef2e0'],
       ['--brand-experiment', '#cedff2'],
       ['--interactive-active', '#000000'],
+      ['--interactive-active', 'black'],
       ['--text-normal', '#202122'],
       ['--text-link', '#0645ad'],
       ['--text-link', '#3366bb'],
