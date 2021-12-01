@@ -1,1 +1,1 @@
-/* { "spicetify": "https://raw.githubusercontent.com/JulienMaille/dribbblish-dynamic-theme/main/color.ini", "author": { "name": "JulienMaille", "picture": "https://avatars.githubusercontent.com/u/182520?v=4"} } */
+/* { "spicetify": "https://raw.githubusercontent.com/JulienMaille/dribbblish-dynamic-theme/192cc12a853040c36fc8fda86d37e03e68c71c82/color.ini", "author": { "name": "JulienMaille", "picture": "https://avatars.githubusercontent.com/u/182520?v=4"} } */
