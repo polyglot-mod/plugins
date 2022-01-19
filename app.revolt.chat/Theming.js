@@ -56,6 +56,18 @@ export default new (class PluginWrapper extends Plugin {
     /* No background on role headers */
     .dlphjA, .gpDXyx {
       background: none !important;
+    }
+
+    .cYLGSJ {
+      background-color: var(--primary-header);
+    }
+
+    .jyizw {
+      background-color: var(--background);
+    }
+
+    .jZaeuP .circle > div svg {
+      fill: var(--accent);
     }`);
   }
 });
