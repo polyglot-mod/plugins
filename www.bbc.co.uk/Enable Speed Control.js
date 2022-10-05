@@ -4,23 +4,17 @@ let interval;
 
 export default new (class PluginWrapper extends Plugin {
   load() {
-    let lastBarWidth = '';
-
     const update = () => {
-      const frameDoc = document.querySelector('#smphtml5iframebbcMediaPlayer0').contentDocument;
-
-      const barFiller = frameDoc.querySelector('.p_controlBarFiller');
-      if (barFiller.style.width === lastBarWidth) return;
-
-      barFiller.style.width = (parseFloat(barFiller.style.width.slice(0, -2)) - 40) + 'px';
-      lastBarWidth = barFiller.style.width;
-
-      const speedButton = frameDoc.querySelector('.p_speedButton');
-      speedButton.style.right = '179px';
-      speedButton.style.display = 'block';
+      const el = document.querySelector('smp-toucan-player').shadowRoot.querySelector('smp-video-layout').shadowRoot.querySelector('smp-secondary-controls').shadowRoot.querySelector('style');
+      if (!el._enabledSpeedControl) {
+        el.innerHTML += `smp-playback-speed-button {
+          display: block !important;
+        }`;
+        el._enabledSpeedControl = true;
+      }
     };
 
-    interval = setInterval(update, 200);
+    interval = setInterval(update, 500);
     update();
   }
 
